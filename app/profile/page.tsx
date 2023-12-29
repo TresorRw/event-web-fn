@@ -1,10 +1,9 @@
-import { UserButton, UserProfile } from '@clerk/nextjs'
+import { UserButton } from '@clerk/nextjs'
 
 const ProfilePage = () => {
   return (
     <>
       <UserButton afterSignOutUrl='/' showName={true} />
-      <UserProfile  />
     </>
   )
 }
